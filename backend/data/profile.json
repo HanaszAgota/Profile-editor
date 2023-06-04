@@ -1,0 +1,10 @@
+{
+	"firstName": "name",
+	"surname": "name",
+	"country": "country",
+	"zipCode": "zip",
+	"city": "city",
+	"street": "street",
+	"houseNumber": "hn",
+	"picture": "/profile.jpg"
+}
