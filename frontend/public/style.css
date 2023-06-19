@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -33,4 +33,58 @@ select {
 	border-radius: 0;
 }
 
-/* --- end of CSS reset --- */
+--- end of CSS reset --- */
+
+body {
+	font-family: Arial, sans-serif;
+  }
+  
+  #profile-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #profile-image-container {
+	margin-bottom: 20px;
+  }
+  
+  #profile-image-preview {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+  
+  #profile-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  input[type="text"],
+  textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  textarea {
+	height: 150px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+  }
+  

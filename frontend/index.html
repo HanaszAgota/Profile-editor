@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -17,4 +17,34 @@
 	<body>
 		<div id="root"></div>
 	</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="profile-container">
+    <h1>Edit Profile</h1>
+    <div id="profile-image-container">
+      <img id="profile-image-preview" src="#" alt="Profile Image Preview">
+      <input type="file" id="profile-image-input" accept="image/*">
+    </div>
+    <div id="profile-form">
+      <input type="text" id="first-name-input" placeholder="First Name">
+      <input type="text" id="surname-input" placeholder="Surname">
+      <input type="text" id="zip-input" placeholder="Zip">
+      <input type="text" id="country-input" placeholder="Country">
+      <input type="text" id="city-input" placeholder="City">
+      <input type="text" id="street-input" placeholder="Street">
+      <input type="text" id="house-number-input" placeholder="House Number">
+      <textarea id="introduction-input" placeholder="Introduction"></textarea>
+      <button id="save-button">Save</button>
+      <button id="delete-button">Delete</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
